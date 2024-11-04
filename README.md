@@ -26,3 +26,83 @@ I checked for duplicates and blank cells. These were removed to avoid duplicate 
 1. Microsoft Excel
 2. SQL
 3. Power BI
+
+Total Sales/Revenue By Product	
+Products	Sum of Revenue
+Gloves	296,900
+Hat	316,195
+Jacket	208,230
+Shirt	485,600
+Shoes	613,380
+Socks	180,785
+Grand Total	2,101,090
+![image](https://github.com/user-attachments/assets/1eb1a38b-c424-485c-903a-d67a31e28dd3)
+
+![Screenshot (112)](https://github.com/user-attachments/assets/89f970b7-c6a9-411a-a82a-2f53f0d593c4)
+![Screenshot (113)](https://github.com/user-attachments/assets/3e72beaa-8933-40e4-aac0-01ae1a2cc0fa)
+SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
+
+DELETE FROM [dbo].[LITA Capstone Sales Dataset] 
+WHERE REGION IS NULL
+
+select sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset]
+
+------to get Total Sales for each product category	
+
+select Product, 
+sum(revenue) as TotalSales
+from [dbo].[LITA Capstone Sales Dataset] 
+group by Product 
+order by 2 desc
+
+----to find the number of sales transactions in each region-----
+
+select Region, count(Quantity) as SalesTransactions from [dbo].[LITA Capstone Sales Dataset]
+group by Region
+
+----find the highest-selling product by total sales value-----
+
+select Top 1 Product, 
+sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset] 
+group by Product 
+order by TotalSales Desc
+
+----calculate total revenue per product----
+
+select Product, sum(revenue) as TotalRevenue from [dbo].[LITA Capstone Sales Dataset]
+group by Product 
+
+-----calculate monthly sales totals for the current year-----
+
+ Select DATENAME(Month, OrderDate) as SalesMonth, 
+SUM(Quantity) AS TotalSales from [dbo].[LITA Capstone Sales Dataset]
+WHERE YEAR(OrderDate) = YEAR(GETDATE())
+Group By DATENAME(Month, OrderDate), Month(OrderDate)
+Order By Month(OrderDate)
+
+-----find the top 5 customers by total purchase amount-----
+
+Select Top 5 [Customer_Id] ,
+SUM(Revenue) as TotalPurchaseAmount from [dbo].[LITA Capstone Sales Dataset]
+Group By [Customer_Id]
+Order By TotalPurchaseAmount Desc
+
+-----calculate the percentage of total sales contributed by each region-----
+
+SELECT Region, 
+       SUM ([Quantity]) AS TotalSales,
+	   ROUND ((SUM([Quantity]) * 100 / (SELECT SUM([Quantity])
+	   FROM [dbo].[LITA Capstone Sales Dataset])), 2) AS SalesPercentage
+FROM [dbo].[LITA Capstone Sales Dataset]
+GROUP BY Region;
+
+-----identify products with no sales in the last quarter------
+
+Select Product from [dbo].[LITA Capstone Sales Dataset] 
+where Product Not In (Select DISTINCT Product from [dbo].[LITA Capstone Sales Dataset] 
+where OrderDate >= DATEADD(Quarter, -1, GETDATE())
+)
+Group By Product
+
+
+
