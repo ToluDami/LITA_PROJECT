@@ -31,7 +31,9 @@ I checked for duplicates and blank cells. These were removed to avoid duplicate 
 1. Microsoft Excel
 2. SQL
 3. Power BI
-SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
+
+   
+```SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
 
 DELETE FROM [dbo].[LITA Capstone Sales Dataset] 
 WHERE REGION IS NULL
@@ -94,6 +96,7 @@ where Product Not In (Select DISTINCT Product from [dbo].[LITA Capstone Sales Da
 where OrderDate >= DATEADD(Quarter, -1, GETDATE())
 )
 Group By Product
+```
 
 
 
