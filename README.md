@@ -22,24 +22,10 @@ Number of Product Category: 6
 I checked for duplicates and blank cells. These were removed to avoid duplicate entries and address missing values
 
 ### Excel Analysis
-![image](https://github.com/user-attachments/assets/1eb1a38b-c424-485c-903a-d67a31e28dd3)
+![image](https://github.com/user-attachments/assets/016b2a49-3602-45ed-95a4-ffc548f46b1a)
 
-![image](https://github.com/user-attachments/assets/096f454f-cb3d-4edc-b978-2bd80aec619e)
- 
-![image](https://github.com/user-attachments/assets/a0241bde-39a5-45a1-89c7-545fa62c350e)
+![image](https://github.com/user-attachments/assets/6e1b0fda-cee1-47c8-a213-2c6fe58a9f37)
 
-![image](https://github.com/user-attachments/assets/67fe7f38-a11a-45fe-818a-9e5f0b1d64d0)
-
-![image](https://github.com/user-attachments/assets/f7c4b5d0-9b9b-4f24-9366-147a39bc4c91)
-
-![image](https://github.com/user-attachments/assets/a7587474-575f-4688-99f1-f4f5ea1c556e)
-
-
-
-
-
-![Screenshot (112)](https://github.com/user-attachments/assets/89f970b7-c6a9-411a-a82a-2f53f0d593c4)
-![Screenshot (113)](https://github.com/user-attachments/assets/3e72beaa-8933-40e4-aac0-01ae1a2cc0fa)
 
 ## Tools Used
 1. Microsoft Excel
