@@ -11,3 +11,11 @@ The dataset includes the following fields:
 - Quantity
 - Unit Price
 - Revenue
+
+## Basic Statistics about the dataset:
+Total Sales: 2,101,090 
+Total Quantity Sold: 68,461 items
+Number of Product Category: 6
+
+## Data Manipulation
+1. ### Data Cleaning
