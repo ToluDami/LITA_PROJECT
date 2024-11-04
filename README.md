@@ -27,15 +27,6 @@ I checked for duplicates and blank cells. These were removed to avoid duplicate 
 2. SQL
 3. Power BI
 
-Total Sales/Revenue By Product	
-Products	Sum of Revenue
-Gloves	296,900
-Hat	316,195
-Jacket	208,230
-Shirt	485,600
-Shoes	613,380
-Socks	180,785
-Grand Total	2,101,090
 ![image](https://github.com/user-attachments/assets/1eb1a38b-c424-485c-903a-d67a31e28dd3)
 
 ![Screenshot (112)](https://github.com/user-attachments/assets/89f970b7-c6a9-411a-a82a-2f53f0d593c4)
