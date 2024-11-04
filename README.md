@@ -18,4 +18,11 @@ Total Quantity Sold: 68,461 items
 Number of Product Category: 6
 
 ## Data Manipulation
-1. ### Data Cleaning
+
+1. ### Data Cleaning:
+I checked for duplicates and blank cells. These were removed to avoid duplicate entries and address missing values
+
+## Tools Used
+1. Microsoft Excel
+2. SQL
+3. Power BI
