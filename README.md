@@ -32,9 +32,7 @@ This was used to answer various questions as seen below
    
 ```SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
 
-select sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset]```
-![image](https://github.com/user-attachments/assets/8bd2cc83-54d7-41ee-a2b6-8d7f72f8527d)
-
+select sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset]
 
 ------to get Total Sales for each product category	
 
@@ -93,6 +91,8 @@ where OrderDate >= DATEADD(Quarter, -1, GETDATE())
 )
 Group By Product
 ```
+Total Sales for each product category![image](https://github.com/user-attachments/assets/44304dd3-8d11-4b9e-b0ca-01f4b20d46bb)
+
 
 
 
