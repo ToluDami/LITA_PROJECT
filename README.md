@@ -22,7 +22,7 @@ The dataset includes the following fields:
 I checked for duplicates and blank cells. These were removed to avoid duplicate entries and address missing values
 
 ## Tools Used 
-### Microsoft Excel for Data Analysis
+### Microsoft Excel for Data Analysis and Visualisation
 ![image](https://github.com/user-attachments/assets/016b2a49-3602-45ed-95a4-ffc548f46b1a)
 
 ![image](https://github.com/user-attachments/assets/6e1b0fda-cee1-47c8-a213-2c6fe58a9f37)
