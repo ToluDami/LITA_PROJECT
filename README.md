@@ -32,8 +32,6 @@ This was used to answer various questions as seen below
    
 ```SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
 
-select sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset]
-
 ------to get Total Sales for each product category	
 
 select Product, 
@@ -100,6 +98,9 @@ Group By Product
 ![image](https://github.com/user-attachments/assets/0faf9c26-24ec-4753-aeba-b203f113132f)
 ![image](https://github.com/user-attachments/assets/b160fcf7-c945-4b8e-a00b-f9560676b5ee)
 
+### Microsoft PowerBi
+This was also used for visualisation of the data in various ways as seen below
+![image](https://github.com/user-attachments/assets/75ff8835-0c91-457e-a9e3-4fa6ab515df7)
 
 
 
