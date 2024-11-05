@@ -100,6 +100,9 @@ Group By Product
 
 ### Microsoft PowerBi
 This was also used for visualisation of the data in various ways as seen below
+
+![image](https://github.com/user-attachments/assets/4f9cf3d4-fa50-4f15-b85d-d3c55087b3e9)
+
 ![image](https://github.com/user-attachments/assets/75ff8835-0c91-457e-a9e3-4fa6ab515df7)
 
 ![Screenshot (116)](https://github.com/user-attachments/assets/5fced205-1a62-4734-9f53-cb21332a06e9)
