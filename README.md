@@ -21,24 +21,20 @@ Number of Product Category: 6
 ### Data Cleaning:
 I checked for duplicates and blank cells. These were removed to avoid duplicate entries and address missing values
 
-### Excel Analysis
+## Tools Used 
+### Microsoft Excel for pivot tables
 ![image](https://github.com/user-attachments/assets/016b2a49-3602-45ed-95a4-ffc548f46b1a)
 
 ![image](https://github.com/user-attachments/assets/6e1b0fda-cee1-47c8-a213-2c6fe58a9f37)
 
-
-## Tools Used
-1. Microsoft Excel
-2. SQL
-3. Power BI
-
+### Microsoft SQL Server Management Studio
+This was used to answer various questions as seen below
    
 ```SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
 
-DELETE FROM [dbo].[LITA Capstone Sales Dataset] 
-WHERE REGION IS NULL
+select sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset]```
+![image](https://github.com/user-attachments/assets/8bd2cc83-54d7-41ee-a2b6-8d7f72f8527d)
 
-select sum(revenue) as TotalSales from [dbo].[LITA Capstone Sales Dataset]
 
 ------to get Total Sales for each product category	
 
