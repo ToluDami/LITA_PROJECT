@@ -107,6 +107,7 @@ This was also used for visualisation of the data in various ways as seen below
 
 ![Screenshot (116)](https://github.com/user-attachments/assets/5fced205-1a62-4734-9f53-cb21332a06e9)
 
+![image](https://github.com/user-attachments/assets/d9eadf4e-f67c-45e5-91b3-ba547fbd0915)
 
 
 
