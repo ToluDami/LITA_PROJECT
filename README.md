@@ -92,6 +92,19 @@ where OrderDate >= DATEADD(Quarter, -1, GETDATE())
 Group By Product
 ```
 Total Sales for each product category![image](https://github.com/user-attachments/assets/44304dd3-8d11-4b9e-b0ca-01f4b20d46bb)
+Find the number of sales transactions in each region ![image](https://github.com/user-attachments/assets/d63e69ce-3a28-4b17-a994-7096fe29f0d3)
+Find the highest-selling product by total sales value ![image](https://github.com/user-attachments/assets/7e8cede9-68ef-48e9-8290-c532bd0d5efa)
+Calculate total revenue per product ![image](https://github.com/user-attachments/assets/9c6bbc00-3221-4d08-94fb-18d03ef7283c)
+Calculate monthly sales totals for the current year ![image](https://github.com/user-attachments/assets/ea9d4aa6-299d-42ad-ae77-52efb1976e4e)
+Find the top 5 customers by total purchase amount ![image](https://github.com/user-attachments/assets/54e8c92e-a281-4035-ba20-29853a542322)
+Calculate the percentage of total sales contributed by each region ![image](https://github.com/user-attachments/assets/0faf9c26-24ec-4753-aeba-b203f113132f)
+Identify products with no sales in the last quarter ![image](https://github.com/user-attachments/assets/b160fcf7-c945-4b8e-a00b-f9560676b5ee)
+
+
+
+
+
+
 
 
 
