@@ -28,8 +28,10 @@ I checked for duplicates and blank cells. These were removed to avoid duplicate 
 ![image](https://github.com/user-attachments/assets/6e1b0fda-cee1-47c8-a213-2c6fe58a9f37)
 
 ### Microsoft SQL Server Management Studio
+[Uploading LITA Project CustomerData.sql…]()
+
 This was used to answer various questions as seen below
-   
+
 ```SELECT * FROM [dbo].[LITA Capstone Sales Dataset]
 
 ------to get Total Sales for each product category	
